@@ -42,8 +42,9 @@
 // J. Comput. Phys. 274 (2014) 841-882
 // Prog. Nucl. Sci. Tec. 2 (2011) 503-508 
 
-#ifndef MOLECULEGUN_HH_
-#define MOLECULEGUN_HH_
+//#ifndef MOLECULEGUN_HH_
+//#define MOLECULEGUN_HH_
+#pragma once
 
 #include "G4ITGun.hh"
 #include "globals.hh"
@@ -207,4 +208,4 @@ protected:
   template<class T> friend class TG4MoleculeShoot;
 };
 
-#endif /* MOLECULEGUN_HH_ */
+//#endif /* MOLECULEGUN_HH_ */
