@@ -247,7 +247,7 @@ macro(geant4_library_target)
     # and clients must apply it when linking to the shared libs. The global
     # category handles the exact import/export statements
     target_compile_definitions(${G4LIBTARGET_NAME} PUBLIC G4LIB_BUILD_DLL)
-    set_target_properties(${G4LIBTARGET_NAME} PROPERTIES WINDOWS_EXPORT_ALL_SYMBOLS ON)
+    set_target_properties(${G4LIBTARGET_NAME} PROPERTIES WINDOWS_EXPORT_ALL_SYMBOLS OFF)
 
     # Set the include directory usage requirements
     target_include_directories(${G4LIBTARGET_NAME} PUBLIC "$<BUILD_INTERFACE:${${G4LIBTARGET_NAME}_BUILDTREE_INCLUDES}>")
