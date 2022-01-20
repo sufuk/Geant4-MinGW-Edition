@@ -37,7 +37,7 @@
 #  include "G4GlobalConfig.hh"
 #endif
 
-#ifdef _MSC_VER
+#ifdef WIN32
 // Disable warning C4786 on WIN32 architectures:
 // identifier was truncated to '255' characters
 // in the debug information
