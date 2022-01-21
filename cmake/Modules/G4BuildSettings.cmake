@@ -161,7 +161,7 @@ endif() #NOT WIN32
 #
 set(__g4_default_cxxstd 11 14 17 c++11 c++14 c++17)
 if(MSVC)
-  set(__g4_default_cxxstd 17 c++17 23)
+  set(__g4_default_cxxstd 17 c++17)
 endif()
 
 enum_option(GEANT4_BUILD_CXXSTD
